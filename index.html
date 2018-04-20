@@ -15,7 +15,7 @@
         height:100%;
     }
     body{
-        background-image: url(images/bg_index.jpg);
+        background-image: url(images/机器人.jpg);
         background-size: cover;
         background-position:50% 50%;
         background-repeat: no-repeat;
@@ -187,6 +187,26 @@ window.onload=function(){
     li1.onclick=li4.onclick=function(){
         alert("coming!");
     }
+
+    
+    setInterval(function(){
+        var date=new Date;
+        if(date.getSeconds()%10>=5){
+            document.body.style.background="url(images/bg_index.jpg)";
+            document.body.style.backgroundPosition="50% 50%";  
+            document.body.style.backgroundRepeat="no-repeat";  
+            document.body.style.backgroundAttachment="fixed";  
+            document.body.style.backgroundSize="cover";
+        }
+        else{
+            document.body.style.background="url(images/机器人.jpg)";
+            document.body.style.backgroundPosition="50% 50%";  
+            document.body.style.backgroundRepeat="no-repeat";  
+            document.body.style.backgroundAttachment="fixed";  
+            document.body.style.backgroundSize="cover";
+        }            
+    },1000);
+    
 }
 </script>
 </head>
