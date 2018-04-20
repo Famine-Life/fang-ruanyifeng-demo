@@ -158,6 +158,14 @@
     }
 </style>
 <script type="text/javascript">
+    function tip(){
+        alert("受github pages限制...will change!");
+    }
+    var oi=0;
+    function btnClick(){
+        oi++;
+        alert("打call成功！已经有"+oi+"打call数量！");
+    }
 window.onload=function(){
     /*以下是为三个<p>添加鼠标移入、移出，改变背景颜色和字体颜色的事件*/
     var oShowpages=document.getElementById("show-page").getElementsByTagName("p");
@@ -173,6 +181,12 @@ window.onload=function(){
             this.getElementsByTagName("a")[0].style.color="white";
         });
     }
+    
+    var li1=document.getElementById("li1");
+    var li4=document.getElementById("li4");
+    li1.onclick=li4.onclick=function(){
+        alert("coming!");
+    }
 }
 </script>
 </head>
@@ -186,18 +200,18 @@ window.onload=function(){
                 <span class="border border-light"></span>
                 <div class="card-body">
                     <div id="show-page" class="show-page">
-                        <p><a href="#">>>我的文章</a></p>
-                        <p><a href="#">>>不断进步的我</a></p>
-                        <p><a href="#">>>联系我</a></p>
+                        <p><a href="#" onclick="tip()">>>我的文章</a></p>
+                        <p><a href="#" onclick="tip()">>>不断进步的我</a></p>
+                        <p><a href="#" onclick="tip()">>>联系我</a></p>
                     </div>
-                    <h5 class="card-title">以下是我的博客、微博、GitHub、知乎</h5>
+                    <h5 class="card-title">以下是我的微博、GitHub、csdn、知乎</h5>
                     <ul class="logo-link">
                         <li id="li1"></li>
-                        <li id="li2"></li>
-                        <li id="li3"></li>
+                        <a href="https://github.com/Famine-Life" target="_blank"><li id="li2"></li></a>
+                        <a href="https://blog.csdn.net/qq_32953185" target="_blank"><li id="li3"></li></a>
                         <li id="li4"></li>
                     </ul>
-                    <a href="html/signin_BT.html" target="_blank" class="btn btn-primary">去给我留言</a>
+                    <a href="#" target="_self" onclick="btnClick()" class="btn btn-primary">打call！</a>
                 </div>
                 <span class="border border-light"></span>
                 <div class="card-footer text-muted">2018-4-10</div>
