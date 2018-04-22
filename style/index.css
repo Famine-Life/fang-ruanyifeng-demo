@@ -1,0 +1,161 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    background-image: url(../images/机器人.jpg);
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color: #646461;
+    font-family: Georgia, serif;
+}
+.container {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 1.5em;
+    color: white;
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 45%;
+    height: auto;
+    max-height: 80%;
+    min-width: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: height 1s ease;
+    transition: top 1s ease;
+}
+.container-fluid{
+    width:100%;
+    
+}
+
+.card-header{
+    font-size: 24px;
+    cursor:pointer;
+}
+.card-header:hover{
+    text-decoration: underline;
+}
+.card{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border-left:none;
+    border-right: none;
+}
+.card-body{
+}
+.text-muted{
+    color:white!important;
+    text-align: right;  
+}
+.border-light{
+    height:1px!important;
+    border-bottom:none!important;
+}
+
+.show-page{
+    color:white;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    border: none;
+    
+}
+.show-page p{
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.25rem;
+    border-radius: 0.5em;
+    text-shadow: 0 1px 1px #333;
+    list-style-type: none;
+    margin-top: 1em;
+    line-height: 180%;
+    margin-left: 0.8em;
+}
+.show-page a{
+    color:white;
+}
+
+ul{
+    width: 100%;
+    text-align: center;
+}
+.ul-position{
+    margin:0 auto;
+    width:60%;
+    text-align: center;
+    overflow: hidden;
+}
+ul li{
+    width:40px;
+    height: 40px;
+    list-style: none;
+    background-color: white;
+    float:left;
+    margin: 10px;
+    text-align: center;
+    cursor:pointer;
+    border-radius:50px;
+}
+ul #li1{
+    background-image: url(../logo/微博.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li1:hover{
+    background-image: url(../logo/微博-hover.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li2{
+    background-image: url(../logo/GitHub.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li2:hover{
+    background-image: url(../logo/GitHub-hover.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li3{
+    background-image: url(../logo/csdn.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li3:hover{
+    background-image: url(../logo/csdn-hover.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li4{
+    background-image: url(../logo/知乎.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul #li4:hover{
+    background-image: url(../logo/知乎-hover.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.btn-primary{
+    margin-top:20px;
+    background-color: rgba(0,0,0,0.5); 
+    border: none;
+    text-align: center;
+}
