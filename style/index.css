@@ -21,7 +21,6 @@ body{
     top: 50%;
     width: 100%;
     height: auto;
-    max-height: 80%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
