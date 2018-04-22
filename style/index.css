@@ -12,14 +12,14 @@ body{
     font-family: Georgia, serif;
 }
 .container {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.0);
     border-radius: 1.5em;
     color: white;
     overflow: auto;
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 45%;
+    width: 80%;
     height: auto;
     max-height: 80%;
     min-width: 40%;
@@ -44,10 +44,14 @@ body{
     text-decoration: underline;
 }
 .card{
-    width: 100%;
-    background-color: rgba(0,0,0,0);
+    margin:0 auto;
+    padding-left:30px;
+    padding-right:30px;
+    width: 60%;
+    background-color: rgba(0,0,0,0.3);
     border-left:none;
     border-right: none;
+    border-radius: 1.5em;
 }
 .card-body{
 }
