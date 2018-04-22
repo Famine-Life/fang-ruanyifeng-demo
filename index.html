@@ -20,7 +20,7 @@
         background-position:50% 50%;
         background-repeat: no-repeat;
         background-attachment:fixed;
-        background-color: #f5f5d5;
+        background-color: #646461;
         font-family: Georgia, serif;
     }
     .container {
@@ -92,13 +92,18 @@
         color:white;
     }
 
+    #logo-link{
+        width: 100%;
+        text-align: center;
+    }
     ul li{
         width:40px;
         height: 40px;
         list-style: none;
         background-color: white;
         float:left;
-        margin-left:30px;
+        margin: 10px;
+        text-align: center;
         cursor:pointer;
         border-radius:50px;
     }
@@ -155,16 +160,15 @@
         margin-top:20px;
         background-color: rgba(0,0,0,0.5); 
         border: none;
+        text-align: center;
     }
 </style>
 <script type="text/javascript">
     function tip(){
         alert("贫穷限制了我们的页面...will change!");
     }
-    var oi=0;
     function btnClick(){
-        oi++;
-        alert("打call成功！已经有打call数量:"+oi);
+        alert("打call成功！");
     }
 window.onload=function(){
     /*以下是为三个<p>添加鼠标移入、移出，改变背景颜色和字体颜色的事件*/
@@ -231,6 +235,7 @@ window.onload=function(){
                         <a href="https://blog.csdn.net/qq_32953185" target="_blank"><li id="li3"></li></a>
                         <li id="li4"></li>
                     </ul>
+                    <br>
                     <a href="#" target="_self" onclick="btnClick()" class="btn btn-primary">打call！</a>
                 </div>
                 <span class="border border-light"></span>
