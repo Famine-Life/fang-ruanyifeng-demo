@@ -20,7 +20,6 @@ body{
     left: 50%;
     top: 50%;
     width: 100%;
-    height: auto;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -41,12 +40,12 @@ body{
     text-decoration: underline;
 }
 .card{
+    border:red 2px solid;
     margin:0 auto;
     padding-left:30px;
     padding-right:30px;
     width: 50%;
     min-width:400px;
-    min-height: 300px;
     background-color: rgba(0,0,0,0.3);
     border-left:none;
     border-right: none;
