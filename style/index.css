@@ -38,7 +38,6 @@ body{
     width: 100%;
     height: auto;
     max-height: 100%;
-    max-width:42%;
     min-width: 90%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -48,17 +47,7 @@ body{
     transition: height 1s ease;
     transition: top 1s ease;
 }
-@media (min-width: 641px) and (max-width:770px){
-    .container{
-        min-width:70%;
-    }
-}
 
-@media (min-width: 771px){
-    .container{
-        min-width:40%;
-    }
-}
 
 .card-header{
     font-size: 24px;
@@ -71,8 +60,8 @@ body{
     margin:0 auto;
     padding-left:30px;
     padding-right:30px;
-    width: auto;
-    min-width:400px;
+    width: 46%;
+    min-width:350px!important;
     background-color: rgba(0,0,0,0.3);
     border-left:none;
     border-right: none;
@@ -107,6 +96,7 @@ body{
     margin-top: 1em;
     line-height: 180%;
     margin-left: 0.8em;
+    font-size:1.2em;
 }
 .show-page a{
     color:white;
