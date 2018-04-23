@@ -38,7 +38,7 @@ body{
     width: 100%;
     height: auto;
     max-height: 100%;
-    max-width:960px;
+    max-width:42%;
     min-width: 90%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -71,7 +71,7 @@ body{
     margin:0 auto;
     padding-left:30px;
     padding-right:30px;
-    width: 60%;
+    width: auto;
     min-width:400px;
     background-color: rgba(0,0,0,0.3);
     border-left:none;
@@ -115,9 +115,13 @@ body{
 
 .ul-position{
     margin:0 auto;
-    width:60%;
     text-align: center;
+}
+ul{
+    display: inline-block;
     overflow: hidden;
+    margin:0;
+    padding:0;
 }
 ul li{
     width:35px;
@@ -125,10 +129,11 @@ ul li{
     list-style: none;
     background-color: white;
     float:left;
-    margin: 10px;
-    text-align: center;
+    margin:0 10px;
+    padding:0;
     cursor:pointer;
     border-radius:50px;
+    display: inline;
 }
 ul #li1{
     background-image: url(../logo/微博.png);
