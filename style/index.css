@@ -41,7 +41,6 @@ body{
     text-decoration: underline;
 }
 .card{
-    border: red 2px solid;
     margin:0 auto;
     padding-left:30px;
     padding-right:30px;
