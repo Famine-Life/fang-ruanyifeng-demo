@@ -9,7 +9,7 @@ body{
     height: 100%;
     margin:0;
     padding:0;
-    background-image: url(../images/机器人.jpg);
+    background-image: url(../images/robot.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,13 +126,13 @@ ul li{
     display: inline;
 }
 ul #li1{
-    background-image: url(../logo/微博.png);
+    background-image: url(../logo/weibo.png);
     background-position: 50% 50%;
     background-repeat:no-repeat;
     background-size: cover;
 }
 ul #li1:hover{
-    background-image: url(../logo/微博-hover.png);
+    background-image: url(../logo/weibo-hover.png);
     background-position: 50% 50%;
     background-repeat:no-repeat;
     background-size: cover;
@@ -162,13 +162,13 @@ ul #li3:hover{
     background-size: cover;
 }
 ul #li4{
-    background-image: url(../logo/知乎.png);
+    background-image: url(../logo/zhihu.png);
     background-position: 50% 50%;
     background-repeat:no-repeat;
     background-size: cover;
 }
 ul #li4:hover{
-    background-image: url(../logo/知乎-hover.png);
+    background-image: url(../logo/zhihu-hover.png);
     background-position: 50% 50%;
     background-repeat:no-repeat;
     background-size: cover;

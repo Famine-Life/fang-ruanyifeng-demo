@@ -34,7 +34,7 @@ window.onload=function(){
             document.body.style.backgroundSize="cover";
         }
         else{
-            document.body.style.background="url(./images/机器人.jpg)";
+            document.body.style.background="url(./images/robot.jpg)";
             document.body.style.backgroundPosition="50% 50%";  
             document.body.style.backgroundRepeat="no-repeat";  
             document.body.style.backgroundAttachment="fixed";  
