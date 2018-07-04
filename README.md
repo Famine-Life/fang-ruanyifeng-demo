@@ -1,5 +1,5 @@
 # 极简博客首页
-## 仿自[阮一峰](https://ruanyifeng.com/home.html)
+## 仿自[阮一峰](https://www.ruanyifeng.com/home.html)
 
 [![liantao.me](https://img.shields.io/github/followers/famine-life.svg?style=social&label=Follow%20Me)](https://github.com/famine-life)
 
