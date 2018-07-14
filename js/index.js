@@ -1,5 +1,5 @@
  function tip(){
-        alert("贫穷限制了我们的页面...will change!");
+        alert("coming!");
     }
 window.onload=function(){
     /*以下是为三个<p>添加鼠标移入、移出，改变背景颜色和字体颜色的事件*/
