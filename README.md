@@ -1,6 +1,6 @@
 ﻿# 极简博客首页
 ## 仿自[阮一峰](https://www.ruanyifeng.com/home.html)
-
+## [浏览地址](https://blog.liantao.me/fang-ruanyifeng-demo)
 [![liantao.me](https://img.shields.io/github/followers/famine-life.svg?style=social&label=Follow%20Me)](https://github.com/famine-life)
 
 **极简博客首页**
